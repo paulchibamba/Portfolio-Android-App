@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Portfolio App</string>
+    <string name="job_title">Software Developer</string>
+    <string name="job_description">I’m an Android Developer, passionate about building great apps. For me app development is not just about coding, it’s also about creating an awesome user experience</string>
+    <string name="job_status">Current Job Post</string>
+    <string name="qualification">BSc Hons Computing</string>
+    <string name="qualification_description">This computing degree obtained from The University of Greenwich covers research design, development, and implementation of hardware and software systems. It also involves research and development in business-oriented computing by using various computing principles.</string>
+    <string name="current_job_description">I\'m currently open for work</string>
+    <string name="paul">Paul</string>
+    <string name="chibamba">Chibamba</string>
+
+</resources>
