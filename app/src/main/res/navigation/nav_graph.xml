@@ -7,7 +7,16 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.paulchibamba.portfolioapp.HomeFragment"
+        android:name="com.paulchibamba.portfolioapp.fragments.home.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_CVFragment"
+            app:destination="@id/CVFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/CVFragment"
+        android:name="com.paulchibamba.portfolioapp.fragments.cv.CVFragment"
+        android:label="fragment_c_v"
+        tools:layout="@layout/fragment_c_v" />
 </navigation>
